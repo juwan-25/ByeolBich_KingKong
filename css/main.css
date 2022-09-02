@@ -1,11 +1,17 @@
 /*폰트 설정*/
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
-/*폰트 설정*/
+/*body 설정*/
 body {
     font-family: "Noto Sans KR", sans-serif !important;
-
+    height: 100%;
 } 
+
+/*header 설정*/
+#header {
+    width: 100%;
+    height: 853px;
+}
 
 /*headerlogo*/
 #logo {
@@ -76,4 +82,45 @@ body {
     height: 23px;
     left: 0px;
     top: 830px;
+}
+
+/*footer 설정*/
+#wrap_foot {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    height: 372px;
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*footerline*/
+#footer_line{
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 0px;
+    bottom: 349px;
+}
+
+/*footer content*/
+#foot_left {
+    background-color: #F8B62C;
+    position: absolute;
+    width: 50%;
+    height: 349px;
+    left: 0px;
+    bottom: 0;
+}
+#foot_right {
+    background-color: #FFF9EF;
+    position: absolute;
+    width: 50%;
+    height: 349px;
+    right: 0;
+    bottom: 0;
 }
