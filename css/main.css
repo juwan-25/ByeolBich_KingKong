@@ -59,3 +59,21 @@ body {
     margin-right: 90px;
     margin-left: 50px;
 }
+
+/*swiper*/
+#carouselExampleIndicators {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0;
+    top: 230px;
+}
+
+/*haderline*/
+#header_line {
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 0px;
+    top: 830px;
+}
