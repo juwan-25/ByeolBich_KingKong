@@ -51,7 +51,7 @@ body {
     width: 100%;
     height: 80px;
     left: 0px;
-    top: 151px;
+    top: 156px;
     text-align: center;
 
     background: #411500;
@@ -72,7 +72,7 @@ body {
     width: 100%;
     height: 600px;
     left: 0;
-    top: 230px;
+    top: 235px;
 }
 
 /*haderline*/
@@ -123,4 +123,68 @@ body {
     height: 349px;
     right: 0;
     bottom: 0;
+}
+
+/*footer left cont*/
+#fl_tit {
+    position: absolute;
+    width: 126px;
+    height: 27px;
+    left: 604px;
+    bottom: 264px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #411500;
+}
+
+#fl_cont1 {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    width: 69px;
+    height: 145px;
+    right: 420px;
+    bottom: 70px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #FFF9EF;
+}
+
+#fl_cont2 {
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    width: 235px;
+    height: 145px;
+    right: 131px;
+    bottom: 70px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #FFF9EF;
+}
+
+#fl_line {
+    position: absolute;
+    width: 1px;
+    height: 135px;
+    right: 391px;
+    bottom: 75px;
+}
+
+#fline {
+    width: 1px;
+    height: 12px;
+    margin-bottom: 32px;
 }
