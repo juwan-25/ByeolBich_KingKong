@@ -1,0 +1,126 @@
+/*폰트 설정*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+/*body 설정*/
+body {
+    font-family: "Noto Sans KR", sans-serif !important;
+    height: 100%;
+} 
+
+/*header 설정*/
+#header {
+    width: 100%;
+    height: 853px;
+}
+
+/*headerlogo*/
+#logo {
+    position: absolute;
+    width: 250px;
+    height: 48.81px;    
+    top: 50.6px;
+}
+#logo_txt {
+    display: inline-block;
+    position: absolute;
+    width: 67px;
+    height: 27px;
+    left: 70%;
+    top: 72px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+
+    color: #7C655A;
+}
+#head_tit {
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    left: 820px;
+
+    background: #FFFFFF;
+}
+
+/*navbar*/
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 151px;
+    text-align: center;
+
+    background: #411500;
+}
+.nav-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    margin-right: 90px;
+    margin-left: 50px;
+}
+
+/*swiper*/
+#carouselExampleIndicators {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0;
+    top: 230px;
+}
+
+/*haderline*/
+#header_line {
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 0px;
+    top: 830px;
+}
+
+/*footer 설정*/
+#wrap_foot {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    height: 372px;
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*footerline*/
+#footer_line{
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 0px;
+    bottom: 349px;
+}
+
+/*footer content*/
+#foot_left {
+    background-color: #F8B62C;
+    position: absolute;
+    width: 50%;
+    height: 349px;
+    left: 0px;
+    bottom: 0;
+}
+#foot_right {
+    background-color: #FFF9EF;
+    position: absolute;
+    width: 50%;
+    height: 349px;
+    right: 0;
+    bottom: 0;
+}
