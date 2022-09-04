@@ -84,6 +84,75 @@ body {
     top: 830px;
 }
 
+/*main 설정*/
+body{
+    background-color: #FFF9EF;
+}
+/*킹콩이벤트*/
+.event .title{
+    /*타이틀 여백*/
+    margin: 200px auto 100px auto;
+}
+
+p.title{
+    /*타이틀 (PHOTO에도 적용됨)*/
+    text-align: center;
+    font-size: 40px;
+    color: #411500;
+    font-weight: 700;
+}  
+p.title span{
+    color: #E77E02;
+}
+p.title:after {
+    /*타이틀 밑 짧은 밑줄*/
+    content: "";
+    display: block;
+    width: 52px;
+    border-bottom: 3px solid #E77E02;
+    margin: 15px auto;
+}
+
+.event .imgs img{
+    /*이미지들 여백*/
+    padding: 0px 40px 78px 0px;
+}
+
+.event{
+    /*이미지들 가운데 정렬*/
+    width: 100%;
+    text-align: center;
+}
+.event .imgs{
+    display: inline-block;
+
+    /*포스터 텍스트에 필요*/
+    position: relative;
+}
+.event .imgs div{
+    position: absolute; 
+    top: 320px; 
+}
+.event .imgs p{
+    text-align: left;
+}
+
+.event_info{
+    /*이벤트 더보기 상자*/
+    margin:  0 auto;
+    width: 250px;
+    height: 60px;
+    border: 2px solid #411500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+.event_info a{
+    color: #411500;
+    text-decoration: none;
+}
+/*//main 설정*/
+
 /*footer 설정*/
 #wrap_foot {
     position: relative;
