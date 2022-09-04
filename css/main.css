@@ -151,6 +151,26 @@ p.title:after {
     color: #411500;
     text-decoration: none;
 }
+/*//킹콩이벤트*/
+
+ /*PHOTO*/
+.photo{
+    margin-bottom: 500px;
+}
+.photo .title{
+     /*타이틀 여백*/
+     margin: 340px auto 80px auto;
+}
+ .photo .imgs{
+     /*이미지 가운데 정렬*/
+     width: 100%;
+     text-align: center;
+ }
+ .photo .imgs .imgs_r img{
+     display: inline-block;
+     padding: 0px 27.1px 27.1px 0px;
+ }
+ /*//PHOTO*/
 /*//main 설정*/
 
 /*footer 설정*/
