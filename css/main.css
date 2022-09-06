@@ -75,6 +75,57 @@ body {
     top: 235px;
 }
 
+.carousel-indicators {
+    position: relative;
+    top: 510px;
+    height: 15px !important;
+   
+}
+
+.carousel-indicators > li {
+    border-radius: 50%;
+    margin-right: 22px !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+#indi_cont {
+    background-color: #411500;
+}
+
+.control_prev {
+    position: absolute;
+    left: 370px;
+    width: 70px;
+    height: 70px;
+}
+
+#control_img{
+
+    width: 70px;
+    height: 70px;
+}
+
+#prev_img {
+    position: relative;
+    top: -52px;
+    right: 1px;
+}
+
+.control_next {
+    position: absolute;
+    right: 370px;
+    width: 70px;
+    height: 70px;
+}
+
+
+#next_img {
+    position: relative;
+    top: -52px;
+    left: 1px;
+}
+
 /*haderline*/
 #header_line {
     position: absolute;
