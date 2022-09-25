@@ -6,6 +6,7 @@ body {
     font-family: "Noto Sans KR", sans-serif !important;
     height: 100%;
     width: 1920px;
+    background-color: #FFF9EF;
 }
 
 /*header 설정*/
@@ -235,12 +236,23 @@ p.title:after {
 
 /*head*/
 .head {
-    margin-top: 3em;
+    background-color: #FFF9EF;
+    padding-top: 3em;
     text-align: center;
 }
 
 .head .head_title {
     position: relative;
+}
+
+.head a{
+    text-decoration: none;
+    color: #411500;
+}
+
+.head a:hover{
+    text-decoration: none;
+    color: #E77E02;
 }
 
 .head image {
@@ -265,7 +277,6 @@ p.title:after {
 }
 
 .head .selected_menu {
-    border-bottom: 1px solid transparent;
     background-color: #FFF9EF;
     margin-bottom: 6px;
 }
@@ -277,17 +288,18 @@ p.title:after {
 }
 
 .head hr {
-    margin-top: -2px;
-    background-color: #411500;
-    height: 3px;
+    margin-top: -1px;
+    background-color: #000000;
 }
 
 /*head 끝*/
 
 /*부대찌개*/
 main .menu {
+    margin-top: -20px;
     display: flex;
     width: 100%;
+    background-color: #FFF9EF;
 }
 
 main .menu_left {
@@ -324,7 +336,7 @@ main .menu_right .menu_side_image img {
 }
 
 main .menu_right .menu_side_image {
-    margin-left: -4em;
+    margin-left: -3em;
 }
 
 main .menu_left .menu_text {
@@ -334,12 +346,13 @@ main .menu_left .menu_text {
 
 main .menu_left .menu_set_text {
     text-align: left;
-    margin-left: 20em;
+    margin-left: 24em;
 }
 
 main .menu_right .menu_set_text {
     text-align: right;
-    margin-right: 17em;
+    margin-right: 23em;
+    margin-top: 1em;
 }
 
 main .menu_set_text h2 {
@@ -387,7 +400,8 @@ main .menu_left_cont,
 
 /*사리*/
 .extra {
-    margin-bottom: 15em;
+    background-color: #FFF9EF;
+    padding-bottom: 15em;
 }
 
 .extra p.extra_title {
