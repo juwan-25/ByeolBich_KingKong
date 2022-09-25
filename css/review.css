@@ -1,0 +1,14 @@
+/*폰트 설정*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+body {
+    width: 1920px;
+}
+
+main{
+    background-color: #FFF9EF;
+    height: 2154px;
+    width: 1920px;
+    font-family: "Noto Sans KR", sans-serif !important;
+    margin: 0px;
+}
