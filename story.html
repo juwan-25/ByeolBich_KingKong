@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/story.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
@@ -10,6 +11,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            margin: 0;
+        }
+        p {
+            margin: 0
+        }
+    </style>
 </head>
 
 <body>
@@ -28,13 +41,13 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="story.html">브랜드스토리</a>
+                            <a class="nav-link" href="#">브랜드스토리</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">메뉴</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="review.html">리뷰</a>
+                            <a class="nav-link" href="#">리뷰</a>
                         </li>
                     </ul>
                 </div>
@@ -80,54 +93,66 @@
     </header>
 
     <main>
-        <!--킹콩이벤트-->
-        <div class="event">
-            <p class="title"><span>킹콩</span>이벤트</p>
-            <div class="imgs">
-                <img src="img/main/킹콩이벤트_1.png" alt="제 2회 킹콩부대찌개 가정의 달 그림공모전">
-                <div style="left: 15px;">
-                    <p>제 2회 킹콩부대찌개 가정의 달<br>그림공모전</p>
-                </div>
-
-                <img src="img/main/킹콩이벤트_2.png" alt="킹콩과 먹방 찍을 새싹 유튜버는 누구?">
-                <div style="left: 360px;">
-                    <p>킹콩과 먹방 찍을 새싹<br>유튜버는 누구?</p>
-                </div>
-
-                <img src="img/main/킹콩이벤트_3.png" alt="킹콩부대찌개 3.1절 기념 이벤트">
-                <div style="left: 700px;">
-                    <p>킹콩부대찌개 3.1절 기념<br>이벤트</p>
-                </div>
+        <div id="story_top">
+            <div id="story_tit">
+                <p id="story_tit1">73</p>
+                <p id="story_tit2">th</p>
             </div>
-
-            <p class="event_info"><a href="https://www.kingkongbudae.co.kr/event">이벤트 더보기</a></p>
+            <img src="img/story/storyline.png" id="story_line">
+            <p id="story_subtit">
+                킹콩부대찌개 패밀리점
+            </p>
+            <p id="story_cont">
+                “킹콩부대찌개”는 단지 맛있는 부대찌개를 만들려 했었던 노력과 정성을 알아준 손님들께서 만들어주신 ‘고객의 브랜드’입니다.<br>
+                최상의 신선한 재료와 진한 육수로 만들어 가족의 건강까지 생각하는 맛있는 부대찌개! ‘공깃밥’과 ‘라면사리’가<br>
+                무한리필인 푸짐하게 즐길 수 있는 ‘킹콩’ 방문한 모든 고객이 극찬한 최고의 맛! 배부름의 즐거움 ‘킹콩부대찌개’입니다.  
+            </p>
         </div>
-        <!--//킹콩이벤트-->
-
-        <!--PHOTO-->
-        <div class="photo">
-            <p class="title"><span>PHOTO</span></p>
-            <div class="imgs">
-                <div class="imgs_r">
-                    <img src="img/main/사진_1.png" alt="사진1">
-                    <img src="img/main/사진_2.png" alt="사진2">
-                    <img src="img/main/사진_3.png" alt="사진3">
-                </div>
-                <div class="imgs_r">
-                    <img src="img/main/사진_4.png" alt="사진4">
-                    <img src="img/main/사진_5.png" alt="사진5">
-                    <img src="img/main/사진_6.png" alt="사진6">
-                </div>
-                <div class="imgs_r">
-                    <img src="img/main/사진_7.png" alt="사진7">
-                    <img src="img/main/사진_8.png" alt="사진8">
-                    <img src="img/main/사진_9.png" alt="사진9">
+        <div id="story_local">
+            <div id="local_cont">
+                <img src="img/story/local.png" id="local_tit">
+                <p id="local_detail">
+                    서울특별시 관악구 신림로 59길 15-12
+                </p>
+            </div>
+            <div id="local_map">
+                <img src="img/story/loacal_img.png" id="local_img">
+                <div id="iframe_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25330.823753771037!2d126.92485031666064!3d37.47599617441167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f992b8f9a47%3A0x9978e156c69ab402!2z7YK57L2p67aA64yA7LCM6rCcIOyLoOumvOyXreygkA!5e0!3m2!1sko!2skr!4v1664117989658!5m2!1sko!2skr" 
+                    width="775px" height="465px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
                 </div>
             </div>
         </div>
-        <!--//PHOTO-->
+        <div id="story_tip">
+            <div id="tip_cont">
+                <img src="img/story/tip.png" id="tip_tit">
+            </div>
+            <div id="tip_detail">
+                <div id="tip1">
+                    <img src="img/story/캐릭터.png" id="tip1_chr">
+                    <div id="tip1_cont">
+                        <img src="img/story/말풍선.png" id="tip1_cont_bg">
+                        <p id="tip1_detail">1인 1메뉴 주문시 라면사리&밥 무한리필</p>
+                    </div>
+                </div>
+                <div id="tip2">
+                    <div id="tip2_cont">
+                        <img src="img/story/말풍선1.png" id="tip2_cont_bg">
+                        <p id="tip2_detail">1인 식사, 포장 가능!</p>
+                    </div>
+                    <img src="img/story/캐릭터.png" id="tip2_chr">
+                </div>
+                <div id="tip3">
+                    <img src="img/story/캐릭터.png" id="tip3_chr">
+                    <div id="tip3_cont">
+                        <img src="img/story/말풍선2.png" id="tip3_cont_bg">
+                        <p id="tip3_detail">기본맛 or 매운맛 선택 가능</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-
+    
     <!-- footer -->
     <div id="wrap_foot">
         <footer id="footer">
