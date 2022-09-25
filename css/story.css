@@ -1,0 +1,243 @@
+/*폰트 설정*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+body {
+    width: 1920px;
+}
+
+main{
+    background-color: #FFF9EF;
+    height: 2154px;
+    width: 1920px;
+    font-family: "Noto Sans KR", sans-serif !important;
+    margin: 0px;
+}
+
+#story_tit {
+    position: relative;
+
+    width: 100px;
+    height: 59px;
+    left: 915px;
+    top: 142px;
+}
+
+#story_tit1 {
+    display: inline-block;
+    width: 45px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59.2px;
+    
+    color: #E77E02;
+}
+
+#story_tit2 {
+    display: inline-block;
+    width: 45px;
+    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59.2px;
+    
+    color: #411500;
+}
+
+#story_line {
+    width: 52px;
+    height: 4px;
+    position: relative;
+    left: 933px;
+    top: 140px;
+}
+
+#story_subtit {
+    position: relative;
+    left: 809px;
+    top: 155px;
+    width: 302px;
+
+    font-weight:700;
+    font-size: 32px;
+    line-height: 47.36px;
+
+    color: #411500;
+}
+
+#story_cont {
+    position: relative;
+    left: 571px;
+    top: 180px;
+    width: 777px;
+    height: 63px;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #431601;
+}
+
+#local_cont {
+    position: relative;
+    left: 570px;
+    top: 320px;
+    width: 777px;
+    text-align: left;
+}
+
+#local_tit {
+    display: inline-block;
+}
+
+#local_detail {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+    color: #411500;
+}
+
+#local_map {
+    position: relative;
+    height: 510px;
+    width: 830px;
+    top: 360px;
+    left: 547px;
+}
+
+#iframe_map {
+    position: absolute;
+    top: 28px;
+    left: 29px;
+}
+
+#tip_cont {
+    position: relative;
+    left: 570px;
+    top: 520px;
+    width: 777px;
+    text-align: right;
+}
+
+#tip_tit {
+    display: inline-block;
+    width: 259px;
+    height: 52px;
+}
+
+#tip1 {
+    position: relative;
+    left: 450px;
+    top: 600px;
+    width: 774px;
+}
+
+#tip1_chr {
+    display: inline;
+    width: 75px;
+    height: 70px;
+}
+
+#tip1_cont {
+    position: relative;
+    display: inline;
+    left: 10px;
+}
+
+#tip1_cont_bg {
+    width: 690px;
+    height: 73px;
+}
+
+#tip1_detail {
+    position: absolute;
+    top: 1px;
+    left: 180px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    
+    color: #ffffff;  
+}
+
+#tip2 {
+    position: relative;
+    left: 675px;
+    top: 670px;
+    width: 774px;
+}
+
+#tip2_chr {
+    display: inline;
+    width: 75px;
+    height: 70px;
+}
+
+#tip2_cont {
+    position: relative;
+    display: inline;
+    right: 10px;
+}
+
+#tip2_cont_bg {
+    width: 690px;
+    height: 73px;
+}
+
+#tip2_detail {
+    position: absolute;
+    top: 1px;
+    left: 265px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    
+    color: #ffffff;  
+}
+
+#tip3 {
+    position: relative;
+    left: 450px;
+    top: 740px;
+    width: 774px;
+}
+
+#tip3_chr {
+    display: inline;
+    width: 75px;
+    height: 70px;
+}
+
+#tip3_cont {
+    position: relative;
+    display: inline;
+    left: 10px;
+}
+
+#tip3_cont_bg {
+    width: 690px;
+    height: 73px;
+}
+
+#tip3_detail {
+    position: absolute;
+    top: 1px;
+    left: 238px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    
+    color: #ffffff;  
+}
+
