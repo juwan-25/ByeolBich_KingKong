@@ -424,7 +424,7 @@ p.extra_title:after {
     display: block;
     width: 52px;
     border-bottom: 3px solid #E77E02;
-    margin: 20px auto;
+    margin: 0.5em auto 2em auto;
 }
 
 .extra .center {
