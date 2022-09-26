@@ -7,8 +7,241 @@ body {
 
 main{
     background-color: #FFF9EF;
-    height: 2154px;
+    height: 2704px;
     width: 1920px;
     font-family: "Noto Sans KR", sans-serif !important;
     margin: 0px;
+}
+
+#review1_main {
+    display: inline-block;
+}
+
+#review1 {
+    position: relative;
+    top: 200px;
+    left: 379px;
+    width: 780px;
+}
+
+#review1_img {
+    position: relative;
+}
+
+#review1_main_cont {
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    width: 571px;
+    height: 405px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    
+    text-align: center;
+    color: #FFF9EF;
+}
+
+#review1_cont {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 100px;
+}
+
+#review1_detail1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+
+    color: #7C655A;
+}
+
+#review1_detail2 {
+    position: relative;
+    top: 5px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+
+    color: #7C655A;
+}
+
+#review2_main {
+    display: inline-block;
+}
+
+#review2 {
+    position: relative;
+    top: 320px;
+    left: 791px;
+    width: 780px;
+}
+
+#review2_img {
+    position: relative;
+}
+
+#review2_main_cont {
+    position: absolute;
+    top: 40px;
+    left: 135px;
+    width: 571px;
+    height: 405px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    
+    text-align: center;
+    color: #411500;
+}
+
+#review2_cont {
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    top: 110px;
+}
+
+#review2_detail1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+
+    color: #7C655A;
+}
+
+#review2_detail2 {
+    position: relative;
+    top: 5px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+
+    color: #7C655A;
+}
+
+#review3_main {
+    display: inline-block;
+}
+
+#review3 {
+    position: relative;
+    top: 440px;
+    left: 356px;
+    width: 820px;
+}
+
+#review3_img {
+    position: relative;
+}
+
+#review3_main_cont {
+    position: absolute;
+    top: 60px;
+    left: 75px;
+    width: 571px;
+    height: 405px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    
+    text-align: center;
+    color: #FFF9EF;
+}
+
+#review3_cont {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 100px;
+}
+
+#review3_detail1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+
+    color: #7C655A;
+}
+
+#review3_detail2 {
+    position: relative;
+    top: 5px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+
+    color: #7C655A;
+}
+
+
+#review4_main {
+    display: inline-block;
+}
+
+#review4 {
+    position: relative;
+    top: 560px;
+    left: 791px;
+    width: 780px;
+}
+
+#review4_img {
+    position: relative;
+}
+
+#review4_main_cont {
+    position: absolute;
+    top: 70px;
+    left: 140px;
+    width: 571px;
+    height: 405px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    
+    text-align: center;
+    color: #411500;
+}
+
+#review4_cont {
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    top: 110px;
+}
+
+#review4_detail1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+
+    color: #7C655A;
+}
+
+#review4_detail2 {
+    position: relative;
+    top: 5px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+
+    color: #7C655A;
 }
