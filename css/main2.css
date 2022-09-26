@@ -266,6 +266,7 @@ p.title:after {
     font-size: 40px;
     left: 47%;
     color: #E77E02;
+    font-weight: bolder;
 }
 
 .head table {
